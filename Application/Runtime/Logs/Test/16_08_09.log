@@ -1,0 +1,20 @@
+[ 2016-08-09T17:27:12+08:00 ] 127.0.0.1 /ThinkPHP/test.php/Model/curd
+ERR: 非法操作:curd
+
+[ 2016-08-09T17:46:42+08:00 ] 127.0.0.1 /ThinkPHP/test.php/Model/whewre
+ERR: 非法操作:whewre
+
+[ 2016-08-09T17:46:45+08:00 ] 127.0.0.1 /ThinkPHP/test.php/Model/where
+ERR: 非法操作:where
+
+[ 2016-08-09T17:46:51+08:00 ] 127.0.0.1 /ThinkPHP/test.php/Model/where
+ERR: 非法操作:where
+
+[ 2016-08-09T17:48:05+08:00 ] 127.0.0.1 /ThinkPHP/test.php/Model/where
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `kang_user` WHERE ( newsletter=1'1 ) 
+
+[ 2016-08-09T17:49:55+08:00 ] 127.0.0.1 /ThinkPHP/test.php/Model/where
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `kang_user` WHERE ( email='1'1' ) 
+

@@ -1,0 +1,39 @@
+[ 2016-08-21T10:04:23+08:00 ] 127.0.0.1 /myweibo/
+ERR: 1054:Unknown column 'w.uid' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `wb_weibo` WHERE w.uid IN ('36','40','38','39') LIMIT 1  
+
+[ 2016-08-21T10:25:20+08:00 ] 127.0.0.1 /myweibo/Index/keep.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0005s ]
+ERR: 非法操作:keep
+
+[ 2016-08-21T10:25:21+08:00 ] 127.0.0.1 /myweibo/Index/keep.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:keep
+
+[ 2016-08-21T10:27:03+08:00 ] 127.0.0.1 /myweibo/Index/keep.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0005s ]
+ERR: 非法操作:keep
+
+[ 2016-08-21T10:27:10+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:getComment
+
+[ 2016-08-21T10:27:40+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0005s ]
+ERR: 非法操作:getComment
+

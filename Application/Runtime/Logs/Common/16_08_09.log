@@ -1,0 +1,18 @@
+[ 2016-08-09T11:22:28+08:00 ] 127.0.0.1 /ThinkPHP/Application/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001584s ]
+ERR: 无法加载模块:Application
+
+[ 2016-08-09T11:34:12+08:00 ] 127.0.0.1 /ThinkPHP/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+ERR: 无法加载模块:Register
+
+[ 2016-08-09T11:43:03+08:00 ] 127.0.0.1 /ThinkPHP/index.php/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+ERR: 无法加载模块:Register
+

@@ -1,0 +1,1662 @@
+[ 2016-08-22T09:57:12+08:00 ] 127.0.0.1 /myweibo/Public/Theme//Css/index-new.css
+ERR: 无法加载控制器:Public
+
+[ 2016-08-22T10:00:02+08:00 ] 127.0.0.1 /myweibo/Public/Theme//Css/Index1.css
+ERR: 无法加载控制器:Public
+
+[ 2016-08-22T10:01:10+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:getComment
+
+[ 2016-08-22T10:03:50+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:getComment
+
+[ 2016-08-22T10:07:45+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0010s ]
+ERR: 非法操作:getComment
+
+[ 2016-08-22T10:07:51+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:getComment
+
+[ 2016-08-22T12:10:25+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+ERR: 非法操作:getComment
+
+[ 2016-08-22T12:10:45+08:00 ] 127.0.0.1 /myweibo/Index/keep.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:keep
+
+[ 2016-08-22T12:10:46+08:00 ] 127.0.0.1 /myweibo/Index/keep.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:keep
+
+[ 2016-08-22T14:26:41+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+ERR: 非法操作:getComment
+
+[ 2016-08-22T14:27:03+08:00 ] 127.0.0.1 /myweibo/Index/follow.html
+ERR: 非法操作:follow
+
+[ 2016-08-22T14:27:05+08:00 ] 127.0.0.1 /myweibo/Index/follow.html
+ERR: 非法操作:follow
+
+[ 2016-08-22T14:29:29+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+ERR: 非法操作:getComment
+
+[ 2016-08-22T14:30:33+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+ERR: 非法操作:getComment
+
+[ 2016-08-22T15:07:54+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 97 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T15:10:38+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T15:15:00+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T15:24:05+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wb_comment` [ RunTime:0.0040s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`) VALUES ('添加评论','1471850645','38') [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 112 行.
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T15:27:43+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-22T15:28:35+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`) VALUES ('无可救药','1471850915','38') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 113 行.
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T15:30:30+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('无可救药','1471851030','38','22') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T15:31:48+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('成功吧！','1471851108','38','22') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T15:52:42+08:00 ] 127.0.0.1 /myweibo/
+ERR: 1052:Column 'id' in field list is ambiguous
+ [ SQL语句 ] : SELECT COUNT(id) AS tp_count FROM wb_weibo weibo LEFT JOIN wb_userinfo userinfo ON weibo.uid = userinfo.uid LEFT JOIN wb_picture picture ON weibo.id = picture.wid WHERE weibo.uid IN ('38','40','36','39') LIMIT 1  
+
+[ 2016-08-22T15:54:49+08:00 ] 127.0.0.1 /myweibo/
+ERR: 1054:Unknown column 'w.uid' in 'where clause'
+ [ SQL语句 ] : SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.turn AS turn,weibo.keep AS keep,weibo.comment AS comment,weibo.uid AS uid,userinfo.username AS username,userinfo.face80 AS face,picture.mini AS mini,picture.medium AS medium,picture.max AS max FROM wb_weibo weibo LEFT JOIN wb_userinfo userinfo ON weibo.uid = userinfo.uid LEFT JOIN wb_picture picture ON weibo.id = picture.wid WHERE w.uid IN ('38','40','36','39') ORDER BY weibo.time DESC LIMIT 0,5  
+
+[ 2016-08-22T15:55:14+08:00 ] 127.0.0.1 /myweibo/
+ERR: 1052:Column 'id' in field list is ambiguous
+ [ SQL语句 ] : SELECT COUNT(id) AS tp_count FROM wb_weibo weibo LEFT JOIN wb_userinfo userinfo ON weibo.uid = userinfo.uid LEFT JOIN wb_picture picture ON weibo.id = picture.wid WHERE weibo.uid IN ('38','40','36','39') LIMIT 1  
+
+[ 2016-08-22T15:55:56+08:00 ] 127.0.0.1 /myweibo/
+ERR: 1052:Column 'id' in field list is ambiguous
+ [ SQL语句 ] : SELECT COUNT(id) AS tp_count FROM wb_weibo weibo LEFT JOIN wb_userinfo userinfo ON weibo.uid = userinfo.uid LEFT JOIN wb_picture picture ON weibo.id = picture.wid WHERE weibo.uid IN ('38','40','36','39') LIMIT 1  
+
+[ 2016-08-22T15:57:10+08:00 ] 127.0.0.1 /myweibo/
+ERR: 1052:Column 'id' in field list is ambiguous
+ [ SQL语句 ] : SELECT COUNT(id) AS tp_count FROM wb_weibo weibo LEFT JOIN wb_userinfo userinfo ON weibo.uid = userinfo.uid LEFT JOIN wb_picture picture ON weibo.id = picture.wid WHERE weibo.uid IN ('38','40','36','39') LIMIT 1  
+
+[ 2016-08-22T15:57:26+08:00 ] 127.0.0.1 /myweibo/
+ERR: 1052:Column 'id' in field list is ambiguous
+ [ SQL语句 ] : SELECT COUNT(id) AS tp_count FROM wb_weibo weibo LEFT JOIN wb_userinfo userinfo ON weibo.uid = userinfo.uid LEFT JOIN wb_picture picture ON weibo.id = picture.wid WHERE weibo.uid IN ('38','40','36','39') LIMIT 1  
+
+[ 2016-08-22T15:57:26+08:00 ] 127.0.0.1 /myweibo/
+ERR: 1052:Column 'id' in field list is ambiguous
+ [ SQL语句 ] : SELECT COUNT(id) AS tp_count FROM wb_weibo weibo LEFT JOIN wb_userinfo userinfo ON weibo.uid = userinfo.uid LEFT JOIN wb_picture picture ON weibo.id = picture.wid WHERE weibo.uid IN ('38','40','36','39') LIMIT 1  
+
+[ 2016-08-22T15:57:26+08:00 ] 127.0.0.1 /myweibo/
+ERR: 1052:Column 'id' in field list is ambiguous
+ [ SQL语句 ] : SELECT COUNT(id) AS tp_count FROM wb_weibo weibo LEFT JOIN wb_userinfo userinfo ON weibo.uid = userinfo.uid LEFT JOIN wb_picture picture ON weibo.id = picture.wid WHERE weibo.uid IN ('38','40','36','39') LIMIT 1  
+
+[ 2016-08-22T15:57:49+08:00 ] 127.0.0.1 /myweibo/
+ERR: 1052:Column 'id' in field list is ambiguous
+ [ SQL语句 ] : SELECT COUNT(id) AS tp_count FROM wb_weibo weibo LEFT JOIN wb_userinfo userinfo ON weibo.uid = userinfo.uid LEFT JOIN wb_picture picture ON weibo.id = picture.wid WHERE weibo.uid IN ('38','40','36','39') LIMIT 1  
+
+[ 2016-08-22T15:59:57+08:00 ] 127.0.0.1 /myweibo/
+ERR: 1054:Unknown column 'w.uid' in 'where clause'
+ [ SQL语句 ] : SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.turn AS turn,weibo.keep AS keep,weibo.comment AS comment,weibo.uid AS uid,userinfo.username AS username,userinfo.face80 AS face,picture.mini AS mini,picture.medium AS medium,picture.max AS max FROM wb_weibo weibo LEFT JOIN wb_userinfo userinfo ON weibo.uid = userinfo.uid LEFT JOIN wb_picture picture ON weibo.id = picture.wid WHERE w.uid IN ('38','40','36','39') ORDER BY weibo.time DESC LIMIT 0,5  
+
+[ 2016-08-22T16:06:05+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('再来一次','1471853165','38','117') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T16:06:59+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('再来一次','1471853219','38','117') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T16:09:49+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('再来一次','1471853389','38','117') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T16:10:05+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('再来一次','1471853405','38','117') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T16:12:12+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('再来一次','1471853532','38','117') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 117 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T16:13:36+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('评论测试成功','1471853616','38','113') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 113 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T16:36:45+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('','1471855005','38','117') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 117 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: filed D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT * FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 139 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-22T16:36:45+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('','1471855005','38','117') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 117 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: filed D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT * FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 139 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T16:36:46+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('','1471855006','38','117') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 117 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: filed D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT * FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 139 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T16:36:47+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('','1471855007','38','117') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 117 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: filed D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT * FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 139 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T16:36:48+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('','1471855008','38','117') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 117 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: filed D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT * FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 139 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-22T16:36:48+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('','1471855008','38','117') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 117 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: filed D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT * FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 139 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T16:36:48+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('','1471855008','38','117') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 117 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: filed D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT * FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 139 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T16:36:49+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('','1471855009','38','117') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 117 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: filed D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT * FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 139 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T16:36:59+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('','1471855019','38','117') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 117 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: filed D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT * FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 139 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T16:37:04+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('奋斗奋斗','1471855024','38','117') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 117 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: filed D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT * FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 139 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T16:37:58+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('与','1471855078','38','117') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 117 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: filed D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT * FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 139 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T16:38:39+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('人','1471855119','38','117') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 117 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: filed D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT * FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 139 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T16:46:20+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('发表评论','1471855580','38','113') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 113 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: filed D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT * FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 139 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T16:46:50+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('发布消息
+','1471855610','38','113') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 113 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: filed D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT * FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 139 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T16:50:00+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('二次评论','1471855800','38','113') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 113 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: filed D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT * FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 139 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T16:51:25+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('测试SQL','1471855885','38','111') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 111 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: filed D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT * FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-22T16:53:08+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('查看SQL语句','1471855988','38','111') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 111 [ RunTime:0.0000s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-22T16:53:42+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('最后一次查看','1471856022','38','111') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 111 [ RunTime:0.0010s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 129 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 132 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 138 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T16:54:44+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('这次应该可以了吧','1471856084','38','111') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 111 [ RunTime:0.0010s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T16:56:18+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('韩小野发的评论','1471856178','39','115') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 115 [ RunTime:0.0010s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 39 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T17:02:14+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('查看DIV结构','1471856534','39','115') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 115 [ RunTime:0.0010s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 39 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T17:06:47+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('心累','1471856807','39','111') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 111 [ RunTime:0.0000s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 39 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T17:08:51+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('再次测试','1471856931','39','111') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 111 [ RunTime:0.0000s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 39 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T17:09:13+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('我就不信还不行','1471856953','39','111') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 111 [ RunTime:0.0010s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 39 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T19:43:42+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T19:43:44+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T19:43:56+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T19:44:50+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T19:44:54+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T19:45:05+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T19:46:46+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T19:46:49+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T19:48:49+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T20:14:46+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-22T20:14:49+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-22T20:15:03+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('评论测试','1471868103','39','111') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 111 [ RunTime:0.0010s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 39 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:15:41+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-22T20:17:07+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-22T20:17:22+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-22T20:18:46+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-22T20:19:36+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-22T20:19:50+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-22T20:20:28+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-22T20:20:39+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-22T20:21:08+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-22T20:21:09+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-22T20:21:12+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-22T20:21:16+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-22T20:21:51+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-22T20:22:46+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-22T20:24:34+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-22T20:25:18+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-22T20:26:06+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-22T20:29:21+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-22T20:30:57+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-22T20:31:26+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '111'  [ RunTime:0.0000s ]
+
+[ 2016-08-22T20:36:17+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '111'  [ RunTime:0.0010s ]
+
+[ 2016-08-22T20:36:37+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '111'  [ RunTime:0.0010s ]
+
+[ 2016-08-22T20:36:49+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('再来一条评论','1471869409','39','111') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 111 [ RunTime:0.0000s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 39 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:38:18+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '111'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 176 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 176 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T20:39:00+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '111'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 176 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 176 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:39:20+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '111'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 176 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 176 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:39:32+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '111'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 176 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 176 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T20:39:33+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '109'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:39:45+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('试试[可怜]','1471869585','39','109') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 109 [ RunTime:0.0000s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 39 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:39:49+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '109'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 176 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T20:40:04+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '109'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 176 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T20:40:28+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '111'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 176 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 176 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:40:34+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '113'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T20:40:45+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('海贼王','1471869645','36','113') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 113 [ RunTime:0.0000s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 36 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:40:48+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '113'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 176 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T20:40:52+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '113'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 176 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T20:40:58+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '111'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 176 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 176 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T20:41:48+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '111'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 176 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 176 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:44:06+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '111'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T20:44:14+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '113'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:44:40+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '111'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:51:03+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '111'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:51:05+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '111'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:51:08+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '111'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T20:51:11+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '113'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T20:51:27+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('第二条微博','1471870287','40','113') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 113 [ RunTime:0.0010s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 40 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:51:38+08:00 ] 127.0.0.1 /myweibo/40.html
+ERR: 无法加载控制器:40
+
+[ 2016-08-22T20:51:45+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '113'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:51:48+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '113'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:51:51+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '113'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:52:06+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('为什么一次性就添加2条','1471870326','40','113') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 113 [ RunTime:0.0000s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 40 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:52:12+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '113'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:52:17+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '113'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:52:19+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '113'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:52:24+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '113'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:53:00+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '113'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:53:16+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '111'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T20:53:19+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '109'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T20:53:33+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '113'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:54:25+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '117'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:54:35+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('测试评论','1471870475','38','117') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 117 [ RunTime:0.0000s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T20:54:39+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '117'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:54:41+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '117'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:54:44+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '117'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T20:54:46+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '117'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T20:54:54+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('2次测试','1471870494','38','117') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 117 [ RunTime:0.0010s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:55:00+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('3次测试','1471870500','38','117') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 117 [ RunTime:0.0000s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:55:07+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('4次测试','1471870507','38','117') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 117 [ RunTime:0.0010s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:55:11+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '117'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:55:24+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '117'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:55:46+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '117'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T20:55:55+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '117'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:56:10+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '116'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:56:21+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('增加评论','1471870581','38','116') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 116 [ RunTime:0.0010s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:56:36+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '116'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:56:52+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '116'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:57:08+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('回复的数据查看结构','1471870628','38','116') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 116 [ RunTime:0.0000s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T20:57:17+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '116'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:59:18+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '116'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T20:59:24+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '117'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T21:46:22+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '117'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T21:46:25+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '116'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-22T21:46:30+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '115'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T21:46:46+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '113'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T21:46:49+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '111'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T21:47:24+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('回复@韩小野 : 再来一条评论&amp;nbsp;&amp;nbsp;(1小时前) ：','1471873644','38','111') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 111 [ RunTime:0.0000s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

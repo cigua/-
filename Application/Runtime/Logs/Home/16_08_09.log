@@ -1,0 +1,1377 @@
+[ 2016-08-09T09:36:11+08:00 ] 127.0.0.1 /ThinkPHP/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000828s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000893s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2016-08-09T11:22:35+08:00 ] 127.0.0.1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2016-08-09T11:33:23+08:00 ] 127.0.0.1 /ThinkPHP/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2016-08-09T11:39:25+08:00 ] 127.0.0.1 /ThinkPHP/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2016-08-09T11:39:27+08:00 ] 127.0.0.1 /ThinkPHP/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2016-08-09T11:39:31+08:00 ] 127.0.0.1 /ThinkPHP/index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2016-08-09T11:39:35+08:00 ] 127.0.0.1 /ThinkPHP/index.php/Home/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2016-08-09T11:39:57+08:00 ] 127.0.0.1 /ThinkPHP/index.php/Home/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+ERR: 无法加载控制器:Register
+
+[ 2016-08-09T11:40:14+08:00 ] 127.0.0.1 /ThinkPHP/index.php/Home/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2016-08-09T11:47:18+08:00 ] 127.0.0.1 /ThinkPHP/index.php/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2016-08-09T11:49:59+08:00 ] 127.0.0.1 /ThinkPHP/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2016-08-09T11:57:21+08:00 ] 127.0.0.1 /ThinkPHP/index.php/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2016-08-09T11:57:25+08:00 ] 127.0.0.1 /ThinkPHP/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2016-08-09T12:03:26+08:00 ] 127.0.0.1 /ThinkPHP/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2016-08-09T15:09:16+08:00 ] 127.0.0.1 /ThinkPHP/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2016-08-09T15:10:14+08:00 ] 127.0.0.1 /ThinkPHP/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+ERR: 非法操作:register
+
+[ 2016-08-09T15:10:52+08:00 ] 127.0.0.1 /ThinkPHP/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2016-08-09T15:14:01+08:00 ] 127.0.0.1 /ThinkPHP/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+ERR: 模板不存在:./Application/Home/View/User/register.html
+
+[ 2016-08-09T15:16:47+08:00 ] 127.0.0.1 /ThinkPHP/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2016-08-09T15:18:01+08:00 ] 127.0.0.1 /ThinkPHP/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2016-08-09T15:18:01+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/jquery-1.11.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:18:01+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:18:01+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/stylesheet/stylesheet.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:18:01+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/jquery/owl-carousel/owl.transitions.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:18:01+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/owl-carousel2/owl.carousel.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:18:01+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/owl-carousel2/owl.carousel.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:18:01+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:18:01+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:18:01+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:18:01+08:00 ] 127.0.0.1 /ThinkPHP/image/catalog/logo3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2016-08-09T15:18:01+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/owl-carousel2/owl.carousel.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:18:01+08:00 ] 127.0.0.1 /ThinkPHP/image/catalog/cart.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2016-08-09T15:18:01+08:00 ] 127.0.0.1 /ThinkPHP/image/catalog/logo3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2016-08-09T15:18:01+08:00 ] 127.0.0.1 /ThinkPHP/image/catalog/cart.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+
+[ 2016-08-09T15:23:35+08:00 ] 127.0.0.1 /ThinkPHP/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001383s ]
+
+[ 2016-08-09T15:23:35+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/jquery-1.11.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:23:35+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:23:35+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:23:35+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:23:35+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/stylesheet/stylesheet.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:23:35+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/owl-carousel2/owl.carousel.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:23:35+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:23:35+08:00 ] 127.0.0.1 /ThinkPHP/image/catalog/logo3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-08-09T15:27:08+08:00 ] 127.0.0.1 /ThinkPHP/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2016-08-09T15:27:08+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/jquery-1.11.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:27:08+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/stylesheet/stylesheet.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:27:08+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:27:08+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:27:08+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001619s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:27:08+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/stylesheet/stylesheet.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:27:08+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/owl-carousel2/owl.carousel.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:27:08+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:27:08+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:27:08+08:00 ] 127.0.0.1 /ThinkPHP/image/catalog/logo3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-08-09T15:30:24+08:00 ] 127.0.0.1 /ThinkPHP/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002061s ]
+
+[ 2016-08-09T15:30:24+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/jquery-1.11.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:30:24+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:30:24+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:30:24+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/stylesheet/stylesheet.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:30:24+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/owl-carousel2/owl.carousel.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:30:24+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:30:24+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:30:24+08:00 ] 127.0.0.1 /ThinkPHP/image/catalog/logo3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+
+[ 2016-08-09T15:36:37+08:00 ] 127.0.0.1 /ThinkPHP/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2016-08-09T15:36:37+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/jquery-1.11.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:36:37+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/stylesheet/stylesheet.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:36:37+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:36:37+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/owl-carousel2/owl.carousel.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001596s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:36:37+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:36:37+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:36:37+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:36:37+08:00 ] 127.0.0.1 /ThinkPHP/image/catalog/logo3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+
+[ 2016-08-09T15:36:37+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:36:37+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/owl-carousel2/owl.carousel.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:36:37+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/stylesheet/stylesheet.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:36:37+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:36:37+08:00 ] 127.0.0.1 /ThinkPHP/image/catalog/logo3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+
+[ 2016-08-09T15:44:14+08:00 ] 127.0.0.1 /ThinkPHP/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2016-08-09T15:44:14+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/jquery-1.11.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:44:14+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:44:14+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:44:14+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:44:14+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:44:14+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/owl-carousel2/owl.carousel.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:44:14+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/stylesheet/stylesheet.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:44:14+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:44:14+08:00 ] 127.0.0.1 /ThinkPHP/image/catalog/logo3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-08-09T15:44:23+08:00 ] 127.0.0.1 /ThinkPHP/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2016-08-09T15:44:24+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:44:24+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:44:24+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:44:24+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/stylesheet/stylesheet.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:44:24+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/jquery-1.11.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018158s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:44:24+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:44:24+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/owl-carousel2/owl.carousel.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:44:24+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:44:24+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:44:24+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/stylesheet/stylesheet.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:44:24+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/owl-carousel2/owl.carousel.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:44:24+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/theme/gd-free/javascript/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:44:24+08:00 ] 127.0.0.1 /ThinkPHP/catalog/view/javascript/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+ERR: 无法加载控制器:Catalog
+
+[ 2016-08-09T15:44:24+08:00 ] 127.0.0.1 /ThinkPHP/image/catalog/logo3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+
+[ 2016-08-09T15:53:40+08:00 ] 127.0.0.1 /ThinkPHP/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2016-08-09T15:53:40+08:00 ] 127.0.0.1 /ThinkPHP/image/catalog/logo3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+
+[ 2016-08-09T15:54:37+08:00 ] 127.0.0.1 /ThinkPHP/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2016-08-09T15:54:37+08:00 ] 127.0.0.1 /ThinkPHP/image/catalog/logo3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2016-08-09T15:54:37+08:00 ] 127.0.0.1 /ThinkPHP/image/catalog/logo3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-08-09T15:54:40+08:00 ] 127.0.0.1 /ThinkPHP/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2016-08-09T15:54:41+08:00 ] 127.0.0.1 /ThinkPHP/image/catalog/logo3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-08-09T15:54:41+08:00 ] 127.0.0.1 /ThinkPHP/image/catalog/logo3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2016-08-09T15:56:04+08:00 ] 127.0.0.1 /ThinkPHP/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2016-08-09T15:56:17+08:00 ] 127.0.0.1 /ThinkPHP/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2016-08-09T15:56:36+08:00 ] 127.0.0.1 /ThinkPHP/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001899s ]
+
+[ 2016-08-09T15:58:39+08:00 ] 127.0.0.1 /ThinkPHP/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2016-08-09T15:58:53+08:00 ] 127.0.0.1 /ThinkPHP/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2016-08-09T16:11:09+08:00 ] 127.0.0.1 /ThinkPHP/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2016-08-09T16:19:42+08:00 ] 127.0.0.1 /ThinkPHP/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001898s ]
+
+[ 2016-08-09T16:19:47+08:00 ] 127.0.0.1 /ThinkPHP/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2016-08-09T16:24:01+08:00 ] 127.0.0.1 /ThinkPHP/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-08-09T16:24:02+08:00 ] 127.0.0.1 /ThinkPHP/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000306s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2016-08-09T16:24:23+08:00 ] 127.0.0.1 /ThinkPHP/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+ERR: SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database 'buyplus2'
+
+[ 2016-08-09T16:30:25+08:00 ] 127.0.0.1 /ThinkPHP/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-08-09T16:30:36+08:00 ] 127.0.0.1 /ThinkPHP/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `kang_user` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined index: validate D:\htdocs\student\php2\ThinkPHP\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\htdocs\student\php2\ThinkPHP\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `kang_user` (`email`,`username`,`password`,`newsletter`) VALUES ('hellokang@kang.com','hellokang','hellokang','0') [ RunTime:0.0051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2016-08-09T16:36:29+08:00 ] 127.0.0.1 /ThinkPHP/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2016-08-09T16:36:46+08:00 ] 127.0.0.1 /ThinkPHP/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+NOTIC: [8] Undefined index: validate D:\htdocs\student\php2\ThinkPHP\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\htdocs\student\php2\ThinkPHP\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `kang_user` (`telephone`,`username`,`password`) VALUES ('15100000000','kang','hellokang') [ RunTime:0.0038s ]
+
+[ 2016-08-09T16:36:46+08:00 ] 127.0.0.1 /ThinkPHP/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+ERR: 无法加载控制器:Login
+
+[ 2016-08-09T16:47:52+08:00 ] 127.0.0.1 /ThinkPHP/register.html
+ERR: 1062:Duplicate entry 'hellokang@kang.com' for key 'email'
+ [ SQL语句 ] : INSERT INTO `kang_user` (`email`,`username`,`password`,`newsletter`) VALUES ('hellokang@kang.com','hellokang','hellokang','0')
+

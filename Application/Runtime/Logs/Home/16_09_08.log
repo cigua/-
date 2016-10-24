@@ -1,0 +1,501 @@
+[ 2016-09-08T11:01:32+08:00 ] 127.0.0.1 /myweibo/Index/turn.html
+ERR: 非法操作:turn
+
+[ 2016-09-08T11:02:57+08:00 ] 127.0.0.1 /myweibo/Index/turn.html
+ERR: 非法操作:turn
+
+[ 2016-09-08T11:04:09+08:00 ] 127.0.0.1 /myweibo/Index/turn.html
+ERR: 非法操作:turn
+
+[ 2016-09-08T11:07:31+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.id AS id,comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '168'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T11:07:37+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('价格','1473304057','38','168') [ RunTime:0.0000s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `wb_userinfo` WHERE `uid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 168 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isturn D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 179 行.
+NOTIC: [8] Undefined index: face D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 207 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T11:07:51+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.id AS id,comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '168'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 267 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T11:09:40+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.id AS id,comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '155'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 267 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 267 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T11:09:45+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.id AS id,comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '156'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 267 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T11:09:49+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.id AS id,comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '167'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T11:09:56+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.id AS id,comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '167'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T11:10:18+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.id AS id,comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '156'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 267 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T11:11:51+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.id AS id,comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '167'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T11:11:54+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.id AS id,comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '156'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 267 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T11:11:59+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.id AS id,comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '167'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T11:12:05+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('pouoj','1473304325','38','167') [ RunTime:0.0010s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 38 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `wb_userinfo` WHERE `uid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 167 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: isturn D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 179 行.
+NOTIC: [8] Undefined index: face D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 207 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T11:12:26+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.id AS id,comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '154'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 267 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 267 行.
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 267 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T11:15:24+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('41','50','38') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 38 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 41 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T11:15:26+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('42','50','38') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 38 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 42 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T11:15:31+08:00 ] 127.0.0.1 /myweibo/Search/delFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:delFollow
+
+[ 2016-09-08T11:15:34+08:00 ] 127.0.0.1 /myweibo/Search/delFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:delFollow
+
+[ 2016-09-08T11:22:35+08:00 ] 127.0.0.1 /myweibo/Search/delFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:delFollow
+
+[ 2016-09-08T11:22:39+08:00 ] 127.0.0.1 /myweibo/Search/delFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:delFollow
+
+[ 2016-09-08T11:25:03+08:00 ] 127.0.0.1 /myweibo/Search/delFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:delFollow
+
+[ 2016-09-08T11:25:14+08:00 ] 127.0.0.1 /myweibo/Search/delFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:delFollow
+
+[ 2016-09-08T12:00:38+08:00 ] 127.0.0.1 /myweibo/Search/delFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:delFollow
+
+[ 2016-09-08T12:00:52+08:00 ] 127.0.0.1 /myweibo/Search/delFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:delFollow
+
+[ 2016-09-08T13:03:01+08:00 ] 127.0.0.1 /myweibo/Search/delFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:delFollow
+
+[ 2016-09-08T13:03:12+08:00 ] 127.0.0.1 /myweibo/Search/delFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:delFollow
+
+[ 2016-09-08T13:03:22+08:00 ] 127.0.0.1 /myweibo/Search/sechUser.html?keyword=%E7%94%A8%E6%88%B7
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') UNION (SELECT `follow` FROM `wb_follow` WHERE 
+							`follow` =  AND `fans` ' at line 2
+ [ SQL语句 ] : (SELECT `follow` FROM `wb_follow` WHERE `follow` = 41 
+							AND `fans` = ) UNION (SELECT `follow` FROM `wb_follow` WHERE 
+							`follow` =  AND `fans` =41)
+
+[ 2016-09-08T13:03:35+08:00 ] 127.0.0.1 /myweibo/Search/sechUser.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') UNION (SELECT `follow` FROM `wb_follow` WHERE 
+							`follow` =  AND `fans` ' at line 2
+ [ SQL语句 ] : (SELECT `follow` FROM `wb_follow` WHERE `follow` = 39 
+							AND `fans` = ) UNION (SELECT `follow` FROM `wb_follow` WHERE 
+							`follow` =  AND `fans` =39)
+
+[ 2016-09-08T13:04:06+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo7' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('41','58','44') [ RunTime:0.0840s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 44 [ RunTime:0.1150s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 41 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-08T13:04:18+08:00 ] 127.0.0.1 /myweibo/Search/delFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:delFollow
+
+[ 2016-09-08T13:04:53+08:00 ] 127.0.0.1 /myweibo/Search/delFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:delFollow
+
+[ 2016-09-08T13:07:03+08:00 ] 127.0.0.1 /myweibo/Common/delFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo7' LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:delFollow
+
+[ 2016-09-08T13:08:10+08:00 ] 127.0.0.1 /myweibo/Common/delFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo7' LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `wb_follow` WHERE `follow` = 41 AND `fans` = 44 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow-1 WHERE `uid` = 44 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans-1 WHERE `uid` = 41 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T13:09:21+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('0','50','38') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 38 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 0 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T13:55:17+08:00 ] 127.0.0.1 /myweibo/Login/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wb_user` WHERE `account` = 'demo11' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T13:55:23+08:00 ] 127.0.0.1 /myweibo/Login/checkUname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wb_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T13:55:32+08:00 ] 127.0.0.1 /myweibo/Login/checkUname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wb_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T13:55:32+08:00 ] 127.0.0.1 /myweibo/Login/checkUname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wb_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T13:55:32+08:00 ] 127.0.0.1 /myweibo/Login/checkUname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wb_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T13:55:32+08:00 ] 127.0.0.1 /myweibo/Login/checkUname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wb_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T13:55:33+08:00 ] 127.0.0.1 /myweibo/Login/checkUname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wb_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T13:55:33+08:00 ] 127.0.0.1 /myweibo/Login/checkUname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wb_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T13:55:33+08:00 ] 127.0.0.1 /myweibo/Login/checkUname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wb_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T13:55:33+08:00 ] 127.0.0.1 /myweibo/Login/checkUname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wb_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-08T13:55:33+08:00 ] 127.0.0.1 /myweibo/Login/checkUname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wb_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T13:55:34+08:00 ] 127.0.0.1 /myweibo/Login/checkUname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wb_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T13:55:34+08:00 ] 127.0.0.1 /myweibo/Login/checkUname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wb_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T13:55:34+08:00 ] 127.0.0.1 /myweibo/Login/checkUname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wb_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T13:55:34+08:00 ] 127.0.0.1 /myweibo/Login/checkUname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wb_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T13:55:35+08:00 ] 127.0.0.1 /myweibo/Login/checkUname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wb_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T13:55:47+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T14:07:22+08:00 ] 127.0.0.1 /myweibo/Login/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wb_user` WHERE `account` = 'demo12' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T14:07:29+08:00 ] 127.0.0.1 /myweibo/Login/checkUname.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wb_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T14:07:32+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T14:09:13+08:00 ] 127.0.0.1 /myweibo/46.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `username`,`face80`,`uid` FROM `wb_userinfo` WHERE `uid` IN () 
+
+[ 2016-09-08T14:09:18+08:00 ] 127.0.0.1 /myweibo/46.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `username`,`face80`,`uid` FROM `wb_userinfo` WHERE `uid` IN () 
+
+[ 2016-09-08T17:09:40+08:00 ] 127.0.0.1 /myweibo/45.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `username`,`face80`,`uid` FROM `wb_userinfo` WHERE `uid` IN () 
+

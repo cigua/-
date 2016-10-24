@@ -1,0 +1,19 @@
+# 判断是否开启的Apache的rewrite模块!
+<IfModule mod_rewrite.c>
+# 如果开启该rewrite模块
+
+  #增加目录选项: 允许符号链接. (解决重写后403权限问题)
+  Options +FollowSymlinks
+  # 开启重写
+  RewriteEngine On
+
+  # 重写条件, 请求的资源 不是目录 dir
+  RewriteCond %{REQUEST_FILENAME} !-d
+  # 重写条件, 请求的资源 不是文件 file
+  RewriteCond %{REQUEST_FILENAME} !-f
+  # 重新规则: 将所有的请求内容, 放在index.php后边.
+  # qsa, 查询参数追加, module/contorller/action.html?name=kang, 保证name参数有效
+  # PT,
+  # L, last, 最后的规则
+  RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
+</IfModule>

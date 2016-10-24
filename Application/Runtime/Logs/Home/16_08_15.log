@@ -1,0 +1,45 @@
+[ 2016-08-15T11:42:17+08:00 ] 127.0.0.1 /myweibo/30.html
+ERR: 无法加载控制器:30
+
+[ 2016-08-15T19:57:04+08:00 ] 127.0.0.1 /myweibo/Common/uploadFace.html
+ERR: 无法加载控制器:Common
+
+[ 2016-08-15T20:09:48+08:00 ] 127.0.0.1 /myweibo/Common/uploadFace.html
+ERR: 无法加载控制器:Common
+
+[ 2016-08-15T20:10:00+08:00 ] 127.0.0.1 /myweibo/Common/uploadFace.html
+ERR: 无法加载控制器:Common
+
+[ 2016-08-15T20:12:20+08:00 ] 127.0.0.1 /myweibo/Common/uploadFace.html
+ERR: 无法加载控制器:Common
+
+[ 2016-08-15T20:13:33+08:00 ] 127.0.0.1 /myweibo/Common/uploadFace.html
+ERR: 无法加载控制器:Common
+
+[ 2016-08-15T20:15:35+08:00 ] 127.0.0.1 /myweibo/Common/uploadFace.html
+ERR: 无法加载控制器:Common
+
+[ 2016-08-15T20:18:19+08:00 ] 127.0.0.1 /myweibo/Common/uploadFace.html
+ERR: 无法加载控制器:Common
+
+[ 2016-08-15T20:23:29+08:00 ] 127.0.0.1 /myweibo/UserSetting/%7BU(%22Common/uploadFace%22)%7D
+ERR: 非法操作:{U("Common
+
+[ 2016-08-15T20:27:56+08:00 ] 127.0.0.1 /myweibo/UserSetting/%7BU(%22Common/uploadFace%22)%7D
+ERR: 非法操作:{U("Common
+
+[ 2016-08-15T20:31:16+08:00 ] 127.0.0.1 /myweibo/Common/uploadFace.html
+ERR: 非法操作:uploadFace
+
+[ 2016-08-15T20:33:37+08:00 ] 127.0.0.1 /myweibo/Common/uploadFace.html
+ERR: Think\Controller:_upload方法不存在！
+
+[ 2016-08-15T20:34:20+08:00 ] 127.0.0.1 /myweibo/Common/uploadFace.html
+ERR: Think\Controller:_upload方法不存在！
+
+[ 2016-08-15T20:41:59+08:00 ] 127.0.0.1 /myweibo/UserSetting/editFace.html
+ERR: 非法操作:editFace
+
+[ 2016-08-15T20:45:29+08:00 ] 127.0.0.1 /myweibo/Common/uploadFace.html
+ERR: Think\Controller:_upload方法不存在！
+

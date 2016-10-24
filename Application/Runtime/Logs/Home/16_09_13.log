@@ -1,0 +1,2432 @@
+[ 2016-09-13T16:17:42+08:00 ] 127.0.0.1 /myweibo/Index/delWeibo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `wb_weibo` WHERE `id` = 170 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wb_picture` WHERE `wid` = 170 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `weibo`=weibo-1 WHERE `uid` = 38 [ RunTime:0.0000s ]
+SQL: DELETE FROM `wb_comment` WHERE `wid` = 170 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T16:17:46+08:00 ] 127.0.0.1 /myweibo/Index/delWeibo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `wb_weibo` WHERE `id` = 170 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wb_picture` WHERE `wid` = 170 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T16:17:50+08:00 ] 127.0.0.1 /myweibo/Index/delWeibo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `wb_weibo` WHERE `id` = 169 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wb_picture` WHERE `wid` = 169 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `weibo`=weibo-1 WHERE `uid` = 38 [ RunTime:0.0010s ]
+SQL: DELETE FROM `wb_comment` WHERE `wid` = 169 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T16:17:55+08:00 ] 127.0.0.1 /myweibo/Index/delWeibo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `wb_weibo` WHERE `id` = 168 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wb_picture` WHERE `wid` = 168 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `weibo`=weibo-1 WHERE `uid` = 38 [ RunTime:0.0010s ]
+SQL: DELETE FROM `wb_comment` WHERE `wid` = 168 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T16:18:07+08:00 ] 127.0.0.1 /myweibo/Index/delWeibo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `wb_weibo` WHERE `id` = 156 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wb_picture` WHERE `wid` = 156 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2] unlink(./Uploads/Pic/): Permission denied D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 348 行.
+NOTIC: [2] unlink(./Uploads/Pic/): Permission denied D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 349 行.
+NOTIC: [2] unlink(./Uploads/Pic/): Permission denied D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 350 行.
+SQL: UPDATE `wb_userinfo` SET `weibo`=weibo-1 WHERE `uid` = 38 [ RunTime:0.0010s ]
+SQL: DELETE FROM `wb_comment` WHERE `wid` = 156 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T16:18:10+08:00 ] 127.0.0.1 /myweibo/Index/delWeibo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `wb_weibo` WHERE `id` = 167 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wb_picture` WHERE `wid` = 167 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `weibo`=weibo-1 WHERE `uid` = 38 [ RunTime:0.0000s ]
+SQL: DELETE FROM `wb_comment` WHERE `wid` = 167 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T16:21:33+08:00 ] 127.0.0.1 /myweibo/Index/delWeibo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `wb_weibo` WHERE `id` = 171 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wb_picture` WHERE `wid` = 171 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Uploads/Pic/): Permission denied D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 349 行.
+SQL: UPDATE `wb_userinfo` SET `weibo`=weibo-1 WHERE `uid` = 41 [ RunTime:0.0010s ]
+SQL: DELETE FROM `wb_comment` WHERE `wid` = 171 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-13T16:21:38+08:00 ] 127.0.0.1 /myweibo/Index/delWeibo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo4' LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `wb_weibo` WHERE `id` = 159 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wb_picture` WHERE `wid` = 159 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Uploads/Pic/): Permission denied D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 349 行.
+SQL: UPDATE `wb_userinfo` SET `weibo`=weibo-1 WHERE `uid` = 41 [ RunTime:0.0000s ]
+SQL: DELETE FROM `wb_comment` WHERE `wid` = 159 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T16:24:10+08:00 ] 127.0.0.1 /myweibo/Index/delWeibo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo5' LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `wb_weibo` WHERE `id` = 160 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wb_picture` WHERE `wid` = 160 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Uploads/Pic/): Permission denied D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 348 行.
+NOTIC: [2] unlink(./Uploads/Pic/): Permission denied D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 349 行.
+NOTIC: [2] unlink(./Uploads/Pic/): Permission denied D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 350 行.
+SQL: UPDATE `wb_userinfo` SET `weibo`=weibo-1 WHERE `uid` = 42 [ RunTime:0.0010s ]
+SQL: DELETE FROM `wb_comment` WHERE `wid` = 160 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T16:25:40+08:00 ] 127.0.0.1 /myweibo/Index/delWeibo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo6' LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `wb_weibo` WHERE `id` = 161 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wb_picture` WHERE `wid` = 161 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Uploads/Pic/): Permission denied D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 349 行.
+SQL: UPDATE `wb_userinfo` SET `weibo`=weibo-1 WHERE `uid` = 43 [ RunTime:0.0000s ]
+SQL: DELETE FROM `wb_comment` WHERE `wid` = 161 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T16:28:27+08:00 ] 127.0.0.1 /myweibo/Index/delWeibo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo7' LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `wb_weibo` WHERE `id` = 166 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wb_picture` WHERE `wid` = 166 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Uploads/Pic/): Permission denied D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 349 行.
+SQL: UPDATE `wb_userinfo` SET `weibo`=weibo-1 WHERE `uid` = 44 [ RunTime:0.0000s ]
+SQL: DELETE FROM `wb_comment` WHERE `wid` = 166 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T16:34:00+08:00 ] 127.0.0.1 /myweibo/Login/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wb_user` WHERE `account` = 'demo13' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T16:34:07+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T16:34:14+08:00 ] 127.0.0.1 /myweibo/Index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` IN () LIMIT 5  
+
+[ 2016-09-13T16:36:18+08:00 ] 127.0.0.1 /myweibo/Index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` IN () LIMIT 5  
+
+[ 2016-09-13T16:36:25+08:00 ] 127.0.0.1 /myweibo/Index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` IN () LIMIT 5  
+
+[ 2016-09-13T16:37:50+08:00 ] 127.0.0.1 /myweibo/Index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` IN () LIMIT 5  
+
+[ 2016-09-13T16:39:22+08:00 ] 127.0.0.1 /myweibo/Index/follow.html
+ERR: 非法操作:follow
+
+[ 2016-09-13T17:07:28+08:00 ] 127.0.0.1 /myweibo/Login/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wb_user` WHERE `account` = 'demo13' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-09-13T17:07:38+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T17:09:23+08:00 ] 127.0.0.1 /myweibo/Common/addGroup.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo13' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_group` (`name`,`uid`) VALUES ('伙伴','48') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T17:09:34+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo13' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('0','63','48') [ RunTime:0.0020s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 48 [ RunTime:0.0040s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 0 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T17:10:15+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo13' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('0','63','48') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 48 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 0 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T17:10:40+08:00 ] 127.0.0.1 /myweibo/45.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `username`,`face80`,`uid` FROM `wb_userinfo` WHERE `uid` IN () 
+
+[ 2016-09-13T17:10:45+08:00 ] 127.0.0.1 /myweibo/46.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `username`,`face80`,`uid` FROM `wb_userinfo` WHERE `uid` IN () 
+
+[ 2016-09-13T17:11:32+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo13' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('0','63','48') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 48 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 0 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-13T17:12:19+08:00 ] 127.0.0.1 /myweibo/Common/addGroup.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo11' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_group` (`name`,`uid`) VALUES ('伙伴','45') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T17:12:26+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo11' LIMIT 1   [ RunTime:0.0030s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('0','64','45') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 45 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 0 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T17:12:29+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo11' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('0','64','45') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 45 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 0 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-09-13T17:12:30+08:00 ] 127.0.0.1 /myweibo/Index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` IN () LIMIT 5  
+
+[ 2016-09-13T17:12:42+08:00 ] 127.0.0.1 /myweibo/Index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` IN () LIMIT 5  
+
+[ 2016-09-13T17:15:49+08:00 ] 127.0.0.1 /myweibo/Common/addGroup.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_group` (`name`,`uid`) VALUES ('伙伴','46') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T17:18:01+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('0','65','46') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 46 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 0 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-13T17:18:28+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('45','65','46') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 46 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 45 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T17:19:37+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('48','65','46') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 46 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 48 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T17:20:17+08:00 ] 127.0.0.1 /myweibo/Login/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT * FROM `wb_user` WHERE `account` = 'demo14' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T17:20:32+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T17:20:44+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T17:20:44+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-13T17:20:46+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T17:22:03+08:00 ] 127.0.0.1 /myweibo/Common/addGroup.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo14' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_group` (`name`,`uid`) VALUES ('船员','49') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-13T17:23:05+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo14' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('0','67','49') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 49 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 0 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-13T17:23:33+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo14' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('48','67','49') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 49 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 48 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T17:23:40+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo14' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('45','67','49') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 49 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 45 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T17:23:47+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo14' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('46','67','49') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 49 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 46 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T17:26:10+08:00 ] 127.0.0.1 /myweibo/Login/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wb_user` WHERE `account` = 'demo15' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T17:26:16+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T17:31:08+08:00 ] 127.0.0.1 /myweibo/Index/delWeibo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo15' LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `wb_weibo` WHERE `id` = 184 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wb_picture` WHERE `wid` = 184 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Uploads/Pic/): Permission denied D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 344 行.
+NOTIC: [2] unlink(./Uploads/Pic/): Permission denied D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 345 行.
+NOTIC: [2] unlink(./Uploads/Pic/): Permission denied D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 346 行.
+SQL: UPDATE `wb_userinfo` SET `weibo`=weibo-1 WHERE `uid` = 50 [ RunTime:0.0000s ]
+SQL: DELETE FROM `wb_comment` WHERE `wid` = 184 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T17:32:07+08:00 ] 127.0.0.1 /myweibo/Index/sendWeibo.html
+ERR: 1048:Column 'wid' cannot be null
+ [ SQL语句 ] : INSERT INTO `wb_atme` (`wid`,`uid`) VALUES (NULL,'48')
+
+[ 2016-09-13T17:32:58+08:00 ] 127.0.0.1 /myweibo/User/%E5%A8%9C%E7%BE%8E%3Cimg%20src=
+ERR: 非法操作:娜美
+
+[ 2016-09-13T17:33:15+08:00 ] 127.0.0.1 /myweibo/Index/delWeibo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo15' LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `wb_weibo` WHERE `id` = 185 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wb_picture` WHERE `wid` = 185 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Uploads/Pic/): Permission denied D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 345 行.
+SQL: UPDATE `wb_userinfo` SET `weibo`=weibo-1 WHERE `uid` = 50 [ RunTime:0.0010s ]
+SQL: DELETE FROM `wb_comment` WHERE `wid` = 185 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-13T17:33:19+08:00 ] 127.0.0.1 /myweibo/Index/delWeibo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo15' LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `wb_weibo` WHERE `id` = 185 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wb_picture` WHERE `wid` = 185 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T17:34:20+08:00 ] 127.0.0.1 /myweibo/Login/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wb_user` WHERE `account` = 'demo16' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T17:34:38+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T17:39:20+08:00 ] 127.0.0.1 /myweibo/Common/addGroup.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo16' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_group` (`name`,`uid`) VALUES ('伙伴','51') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T17:39:47+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo16' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('48','70','51') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 51 [ RunTime:0.0020s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 48 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T17:40:19+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo16' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('49','70','51') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 51 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 49 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T17:42:54+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo16' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('40','70','51') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 51 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 40 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T17:43:44+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo16' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('46','70','51') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 51 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 46 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T17:45:05+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo16' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('45','70','51') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 51 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 45 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T17:52:25+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo4' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('40','60','41') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 41 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 40 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:08:14+08:00 ] 127.0.0.1 /myweibo/Common/addGroup.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_group` (`name`,`uid`) VALUES ('NBA','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:08:26+08:00 ] 127.0.0.1 /myweibo/Common/addGroup.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_group` (`name`,`uid`) VALUES ('海贼王','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:08:32+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('40','71','1') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 40 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:08:35+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('38','71','1') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 38 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-09-13T18:08:40+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('41','71','1') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 41 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:08:44+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('51','72','1') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 51 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:08:48+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('49','72','1') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 49 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:08:52+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('48','72','1') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 48 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:08:54+08:00 ] 127.0.0.1 /myweibo/index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` IN () LIMIT 5  
+
+[ 2016-09-13T18:09:06+08:00 ] 127.0.0.1 /myweibo/index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` IN () LIMIT 5  
+
+[ 2016-09-13T18:09:20+08:00 ] 127.0.0.1 /myweibo/index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` IN () LIMIT 5  
+
+[ 2016-09-13T18:09:47+08:00 ] 127.0.0.1 /myweibo/index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` IN () LIMIT 5  
+
+[ 2016-09-13T18:10:35+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('46','72','1') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 46 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:11:16+08:00 ] 127.0.0.1 /myweibo/Common/addGroup.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_group` (`name`,`uid`) VALUES ('队友','38') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:11:23+08:00 ] 127.0.0.1 /myweibo/Common/addGroup.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_group` (`name`,`uid`) VALUES ('对手','38') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:11:30+08:00 ] 127.0.0.1 /myweibo/Common/addGroup.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_group` (`name`,`uid`) VALUES ('接班人','38') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:11:38+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('40','75','38') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 38 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 40 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:11:43+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('41','74','38') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 38 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 41 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:11:59+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('43','74','38') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 38 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 43 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:12:38+08:00 ] 127.0.0.1 /myweibo/Common/addGroup.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_group` (`name`,`uid`) VALUES ('偶像','39') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:12:45+08:00 ] 127.0.0.1 /myweibo/Common/addGroup.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_group` (`name`,`uid`) VALUES ('海贼王','39') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:12:53+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('1','76','39') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 39 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 1 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:12:56+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('40','76','39') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 39 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 40 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:12:58+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('38','76','39') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 39 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 38 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:13:01+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('41','76','39') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 39 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 41 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:13:03+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('51','76','39') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 39 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 51 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:13:05+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('48','76','39') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 39 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 48 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:13:07+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('46','76','39') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 39 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 46 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:13:47+08:00 ] 127.0.0.1 /myweibo/Common/addGroup.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_group` (`name`,`uid`) VALUES ('队友','40') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:13:56+08:00 ] 127.0.0.1 /myweibo/Common/addGroup.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_group` (`name`,`uid`) VALUES ('对手','40') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:14:01+08:00 ] 127.0.0.1 /myweibo/Common/addGroup.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_group` (`name`,`uid`) VALUES ('球迷','40') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:14:07+08:00 ] 127.0.0.1 /myweibo/Common/addGroup.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_group` (`name`,`uid`) VALUES ('二次元','40') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:14:13+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('39','80','40') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 40 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 39 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:14:16+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('1','80','40') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 40 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 1 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:14:22+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('38','79','40') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 40 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 38 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:14:26+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('41','78','40') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 40 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 41 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:14:32+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('49','81','40') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 40 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 49 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:14:34+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('50','81','40') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 40 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 50 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:15:48+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('42','79','40') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 40 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 42 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:16:29+08:00 ] 127.0.0.1 /myweibo/Common/addGroup.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_group` (`name`,`uid`) VALUES ('对手','41') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:17:03+08:00 ] 127.0.0.1 /myweibo/Common/addGroup.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo4' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_group` (`name`,`uid`) VALUES ('队友','41') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:17:14+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo4' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('40','83','41') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 41 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 40 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:17:18+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo4' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('38','82','41') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 41 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 38 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:18:51+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo4' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('43','82','41') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 41 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 43 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:19:04+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('50','82','41') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 41 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 50 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:20:31+08:00 ] 127.0.0.1 /myweibo/Common/addGroup.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo5' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_group` (`name`,`uid`) VALUES ('对手','42') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:20:35+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo5' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('41','84','42') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 42 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 41 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-13T18:20:38+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo5' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('40','84','42') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 42 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 40 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:20:47+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo5' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('38','84','42') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 42 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 38 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:20:58+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo5' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('44','84','42') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 42 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 44 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:21:03+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo5' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('46','84','42') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 42 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 46 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-13T18:21:32+08:00 ] 127.0.0.1 /myweibo/Common/addGroup.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo6' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_group` (`name`,`uid`) VALUES ('偶像','43') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:21:39+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo6' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('42','85','43') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 43 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 42 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:21:42+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo6' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('40','85','43') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 43 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 40 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:21:52+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo6' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('44','85','43') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 43 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 44 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:22:15+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo6' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('41','0','43') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 43 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 41 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:22:58+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo6' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('48','85','43') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 43 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 48 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:23:18+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo7' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('42','0','44') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 44 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 42 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:23:20+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo7' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('43','0','44') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 44 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 43 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:23:30+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo7' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('40','0','44') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 44 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 40 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:23:35+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo7' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('38','0','44') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 44 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 38 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:24:23+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo11' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('39','0','45') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 45 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 39 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:24:25+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo11' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('51','0','45') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 45 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 51 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:24:26+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo11' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('50','0','45') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 45 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 50 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:24:28+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo11' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('49','0','45') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 45 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 49 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:24:30+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo11' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('48','0','45') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 45 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 48 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:24:32+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo11' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('46','0','45') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 45 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 46 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:24:50+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('39','0','46') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 46 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 39 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:24:51+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('42','0','46') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 46 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 42 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:24:53+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('1','0','46') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 46 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 1 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:24:56+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('40','0','46') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 46 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 40 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:24:58+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('51','0','46') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 46 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 51 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:25:00+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('50','0','46') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 46 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 50 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:25:02+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('49','0','46') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 46 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 49 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-13T18:25:03+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('48','0','46') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 46 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 48 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:25:05+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('46','0','46') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 46 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 46 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:25:26+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo13' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('39','0','48') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 48 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 39 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:25:28+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo13' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('42','0','48') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 48 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 42 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:25:30+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo13' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('1','0','48') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 48 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 1 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:25:32+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo13' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('51','0','48') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 48 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 51 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:25:34+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo13' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('49','0','48') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 48 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 49 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:25:35+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo13' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('50','0','48') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 48 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 50 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:25:37+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo13' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('46','0','48') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 48 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 46 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:25:44+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo13' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('45','0','48') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 48 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 45 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:26:39+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo14' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('51','0','49') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 49 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 51 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:26:41+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo14' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('50','0','49') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 49 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 50 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:26:44+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo14' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('48','0','49') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 49 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 48 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:26:45+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo14' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('46','0','49') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 49 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 46 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:26:54+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo14' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('45','0','49') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 49 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 45 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:27:19+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo15' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('51','0','50') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 50 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 51 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:27:22+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo15' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('49','0','50') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 50 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 49 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:27:24+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo15' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('48','0','50') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 50 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 48 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:27:25+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo15' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('46','0','50') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 50 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 46 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:28:39+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo16' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('39','0','51') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 51 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 39 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:28:40+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo16' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('41','0','51') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 51 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 41 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:28:42+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo16' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('42','0','51') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 51 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 42 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:28:43+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo16' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('49','0','51') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 51 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 49 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:28:45+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo16' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('50','0','51') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 51 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 50 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-13T18:28:51+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo16' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('48','0','51') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 51 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 48 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:28:53+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo16' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('46','0','51') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 51 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 46 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:29:51+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('41','71','1') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 41 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:30:00+08:00 ] 127.0.0.1 /myweibo/Common/delFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `wb_follow` WHERE `follow` = 41 AND `fans` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow-1 WHERE `uid` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans-1 WHERE `uid` = 41 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-13T18:31:16+08:00 ] 127.0.0.1 /myweibo/Login/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wb_user` WHERE `account` = 'roflvb17' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:31:35+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:33:21+08:00 ] 127.0.0.1 /myweibo/52.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `username`,`face80`,`uid` FROM `wb_userinfo` WHERE `uid` IN () 
+
+[ 2016-09-13T18:33:34+08:00 ] 127.0.0.1 /myweibo/52.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `username`,`face80`,`uid` FROM `wb_userinfo` WHERE `uid` IN () 
+
+[ 2016-09-13T18:33:44+08:00 ] 127.0.0.1 /myweibo/52.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `username`,`face80`,`uid` FROM `wb_userinfo` WHERE `uid` IN () 
+
+[ 2016-09-13T18:34:24+08:00 ] 127.0.0.1 /myweibo/Common/addGroup.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo17' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_group` (`name`,`uid`) VALUES ('亲人','52') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:34:34+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo17' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('39','87','52') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 52 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 39 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-13T18:34:50+08:00 ] 127.0.0.1 /myweibo/52.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `username`,`face80`,`uid` FROM `wb_userinfo` WHERE `uid` IN () 
+
+[ 2016-09-13T18:35:55+08:00 ] 127.0.0.1 /myweibo/52.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `username`,`face80`,`uid` FROM `wb_userinfo` WHERE `uid` IN () 
+
+[ 2016-09-13T18:36:09+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('52','71','1') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 52 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:43:23+08:00 ] 127.0.0.1 /myweibo/Index/keep.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `wb_keep` WHERE `wid` = 193 AND `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_keep` (`uid`,`time`,`wid`) VALUES ('1','1473763403','193') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `keep`=keep+1 WHERE `id` = 193 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-13T18:43:25+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.id AS id,comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '193'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:43:56+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('岳父大人','1473763436','1','193') [ RunTime:0.0010s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `wb_userinfo` WHERE `uid` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 193 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isturn D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 199 行.
+NOTIC: [8] Undefined index: face D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:44:00+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.id AS id,comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '193'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 287 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:44:24+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.id AS id,comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '182'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:44:46+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('那我就成为海贼王吧[阴险]','1473763486','1','182') [ RunTime:0.0010s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `wb_userinfo` WHERE `uid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 182 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isturn D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 199 行.
+NOTIC: [8] Undefined index: face D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:44:52+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.id AS id,comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '182'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 287 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:51:22+08:00 ] 127.0.0.1 /myweibo/Login/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:51:22+08:00 ] 127.0.0.1 /myweibo/Login/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wb_user` WHERE `account` = 'demo18' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-13T18:51:28+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:51:33+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:51:35+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:51:35+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:51:36+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:54:16+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo18' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('52','0','53') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 53 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 52 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:54:18+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo18' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('51','0','53') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 53 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 51 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T18:54:20+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo18' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('50','0','53') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 53 [ RunTime:0.0010s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 50 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:54:22+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo18' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('49','0','53') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 53 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 49 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:54:46+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('53','0','1') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 53 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T18:57:37+08:00 ] 127.0.0.1 /myweibo/Common/addGroup.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_group` (`name`,`uid`) VALUES ('注册者','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T19:07:06+08:00 ] 127.0.0.1 /myweibo/Login/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wb_user` WHERE `account` = 'demo19' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:07:12+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:07:15+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:07:16+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T19:07:16+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:07:28+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:07:29+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T19:07:29+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-13T19:07:31+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:07:32+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:07:32+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:08:38+08:00 ] 127.0.0.1 /myweibo/Login/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wb_user` WHERE `account` = 'demo20' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T19:08:44+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:14:08+08:00 ] 127.0.0.1 /myweibo/Login/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wb_user` WHERE `account` = 'demo19' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T19:14:20+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:14:56+08:00 ] 127.0.0.1 /myweibo/Login/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wb_user` WHERE `account` = 'demo19' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:14:58+08:00 ] 127.0.0.1 /myweibo/Login/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wb_user` WHERE `account` = 'demo1' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:14:59+08:00 ] 127.0.0.1 /myweibo/Login/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wb_user` WHERE `account` = 'demo2' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T19:14:59+08:00 ] 127.0.0.1 /myweibo/Login/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wb_user` WHERE `account` = 'demo20' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T19:15:13+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T19:15:18+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:15:18+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:17:07+08:00 ] 127.0.0.1 /myweibo/Login/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wb_user` WHERE `account` = 'demo19' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T19:17:21+08:00 ] 127.0.0.1 /myweibo/Login/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wb_user` WHERE `account` = 'demo8' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:17:29+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:17:32+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T19:17:33+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:17:34+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:20:06+08:00 ] 127.0.0.1 /myweibo/Login/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wb_user` WHERE `account` = 'demo8' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T19:20:11+08:00 ] 127.0.0.1 /myweibo/Login/checkAccount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wb_user` WHERE `account` = 'demo9' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:20:19+08:00 ] 127.0.0.1 /myweibo/Login/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:24:37+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo9' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('38','0','59') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 59 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 38 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:24:39+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo9' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('40','0','59') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 59 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 40 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T19:24:53+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo9' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('41','0','59') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 59 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 41 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:24:55+08:00 ] 127.0.0.1 /myweibo/Common/addFollow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo9' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_follow` (`follow`,`gid`,`fans`) VALUES ('49','0','59') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `follow`=follow+1 WHERE `uid` = 59 [ RunTime:0.0000s ]
+SQL: UPDATE `wb_userinfo` SET `fans`=fans+1 WHERE `uid` = 49 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T19:25:51+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo9' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT comment.id AS id,comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '189'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T19:25:56+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo9' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_comment` (`content`,`time`,`uid`,`wid`) VALUES ('表示不服','1473765956','59','189') [ RunTime:0.0010s ]
+SQL: SELECT `username`,`face50`,`uid` FROM `wb_userinfo` WHERE `uid` = 59 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `wb_userinfo` WHERE `uid` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `comment`=comment+1 WHERE `id` = 189 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isturn D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 200 行.
+NOTIC: [8] Undefined index: face D:\phpStudy\WWW\gitproject\myweibo\Application\Home\Controller\IndexController.class.php 第 228 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:26:02+08:00 ] 127.0.0.1 /myweibo/Index/keep.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo9' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `wb_keep` WHERE `wid` = 195 AND `uid` = 59 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_keep` (`uid`,`time`,`wid`) VALUES ('59','1473765962','195') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `keep`=keep+1 WHERE `id` = 195 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-13T19:26:04+08:00 ] 127.0.0.1 /myweibo/Index/keep.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo9' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wb_keep` WHERE `wid` = 189 AND `uid` = 59 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_keep` (`uid`,`time`,`wid`) VALUES ('59','1473765964','189') [ RunTime:0.0010s ]
+SQL: UPDATE `wb_weibo` SET `keep`=keep+1 WHERE `id` = 189 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-13T19:26:07+08:00 ] 127.0.0.1 /myweibo/Index/keep.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo9' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wb_keep` WHERE `wid` = 175 AND `uid` = 59 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wb_keep` (`uid`,`time`,`wid`) VALUES ('59','1473765967','175') [ RunTime:0.0000s ]
+SQL: UPDATE `wb_weibo` SET `keep`=keep+1 WHERE `id` = 175 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-13T19:26:12+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'demo9' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT comment.id AS id,comment.content AS content,comment.time AS time,comment.wid AS wid,comment.uid AS uid,userinfo.username AS username,userinfo.face50 AS face50,userinfo.uid AS uid FROM wb_comment comment LEFT JOIN wb_userinfo userinfo ON comment.uid=userinfo.uid WHERE comment.wid = '195'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

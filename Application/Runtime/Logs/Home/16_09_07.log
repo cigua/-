@@ -1,0 +1,4 @@
+[ 2016-09-07T10:28:40+08:00 ] 127.0.0.1 /myweibo/User/atme.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY weibo.time DESC LIMIT 0,10' at line 1
+ [ SQL语句 ] : SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.turn AS turn,weibo.keep AS keep,weibo.comment AS comment,weibo.uid AS uid,userinfo.username AS username,userinfo.face50 AS face,picture.mini AS mini,picture.medium AS medium,picture.max AS max FROM wb_weibo weibo LEFT JOIN wb_userinfo userinfo ON weibo.uid = userinfo.uid LEFT JOIN wb_picture picture ON weibo.id = picture.wid WHERE weibo.id IN () ORDER BY weibo.time DESC LIMIT 0,10  
+

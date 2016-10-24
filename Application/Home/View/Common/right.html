@@ -1,0 +1,173 @@
+<style>
+    #right .post span{
+        width:90px;
+
+    }
+    #right .maybe{
+    width:229px;
+    height:auto;
+    margin-top:30px;
+}
+#right .maybe fieldset{
+    border:0;
+    border-top:1px solid #E6E6E6;
+    padding-left:15px;
+}
+#right .maybe fieldset legend{
+    padding:0 5px;
+    color:#333333;
+    font-weight: bold;
+}
+#right .maybe fieldset ul{
+    padding-top:10px;
+}
+#right .maybe fieldset ul li{
+    height: 30px;
+    padding:10px 5px;
+}
+#right .maybe fieldset ul li dl{
+    width:140px;
+    height:30px;
+    float: left;
+}
+#right .maybe fieldset ul li dl dt{
+    width:30px;
+    height:30px;
+    margin-right:10px;
+    float: left;
+}
+#right .maybe fieldset ul li dl dd{
+    width:100px;
+    height:15px;
+    line-height: 15px;
+    color:#2B96E1;
+    float: left;
+}
+#right .maybe fieldset ul li dl dd a{
+    color:#333333;
+}
+#right .maybe fieldset ul li dl dd a:hover{
+    color:#2B96E5;
+}
+#right .maybe fieldset ul li .heed_btn{
+    display: inline-block;
+    width:45px;
+    height:20px;
+    line-height: 20px;
+    text-align: center;
+    border:1px solid #ccc;
+    cursor: pointer;
+    background: #f2f2f2;
+    border-radius: 3px;
+}
+#right .maybe fieldset ul li .heed_btn strong{
+    font-weight: bold;
+    font-size: 14px;
+    color:#FDAE2A;
+}
+
+</style>
+<div id="right">
+    <div class="edit_tpl"><a href="" class='set_model'></a></div> 
+<?php
+    //因为是在USER控制器内，只能在页面下载出，都获取用户信息，数据不能从INDEX控制器继承到USER控制器上  
+    $m_user=M('Userinfo');
+    $where=['uid'=>session('uid')];
+    $userinfo=$m_user->where($where)->find();
+?>
+<div id='$_SESSION["uid"]'>
+    <dl class="user_face">
+        <dt>
+            <a href="{:U('/' . $userinfo['uid'])}">
+                <img src="<if condition='$userinfo["face80"]'>__ROOT__/Uploads/Face/{$userinfo["face80"]}<else/>__PUBLIC__/Images/noface.gif</if>" width='80' height='80' alt="{$username}" />
+            </a>
+        </dt>
+        <dd>
+            <a href="{:U('/' . $userinfo['uid'])}">{$userinfo['username']}</a>
+        </dd>
+    </dl>
+    <ul class='num_list'>
+        <li><a href="{:U('follow/' . $userinfo['uid'])}"><strong>{$userinfo['follow']}</strong><span>关注</span></a></li>
+        <li><a href="{:U('fans/' . $userinfo['uid'])}"><strong>{$userinfo['fans']}</strong><span>粉丝</span></a></li>
+        <li class='noborder'>
+        <a href="{:U('/' . $userinfo['uid'])}"><strong>{$userinfo['weibo']}</strong><span>微博</span></a>
+        </li>
+    </ul>
+</div>
+    <div class="maybe">
+            <fieldset>
+            <legend>可能感兴趣的人</legend>
+            <ul>
+                <maybe uid='$_SESSION["uid"]'>
+                    <foreach name='inster_list' item='v'>
+                    <li>
+                        <dl>
+                            <dt>
+                                <a href="{:U('/' . $v['uid'])}">
+                                    <img src="<if condition='$v.face50'>__ROOT__/Uploads/Face/{$v.face50}<else/>__PUBLIC__/Images/noface.gif</if>" width='30' height='30'/>
+                                </a>
+                            </dt>
+                            <dd><a href="{:U('/' . $v['uid'])}">{$v.username}</a></dd>
+                            
+                        </dl>
+                        <span class='heed_btn add-fl' uid='{$v['uid']}'><strong>+&nbsp;</strong>关注</span>
+                    </li>
+                    </foreach>
+                    </fieldset>
+                </maybe>
+            </ul>
+        
+    </div>
+
+    <div class="maybe">
+            <fieldset>
+            <legend>活跃用户排行</legend>
+            <ul>
+                
+                    <foreach name='hot_user_list' item='v'>
+                    <li>
+                        <dl>
+                            <dt>
+                                <a href="{:U('/' . $v['uid'])}">
+                                    <img src="<if condition='$v.face50'>__ROOT__/Uploads/Face/{$v.face50}<else/>__PUBLIC__/Images/noface.gif</if>" width='30' height='30'/>
+                                </a>
+                            </dt>
+                            <dd><a href="{:U('/' . $v['uid'])}">{$v.username}</a></dd>
+                            
+                        </dl>
+                        <span class='heed_btn add-fl' uid='{$v['uid']}'><strong>+&nbsp;</strong>关注</span>
+                    </li>
+                    </foreach>
+                    </fieldset>
+                
+            </ul>
+        
+    </div>
+   
+     <div class="maybe">
+            <fieldset>
+            <legend>最新注册用户</legend>
+            <ul>
+                
+                    <foreach name='new_user_list' item='v'>
+                    <li>
+                        <dl>
+                            <dt>
+                                <a href="{:U('/' . $v['uid'])}">
+                                    <img src="<if condition='$v.face50'>__ROOT__/Uploads/Face/{$v.face50}<else/>__PUBLIC__/Images/noface.gif</if>" width='30' height='30'/>
+                                </a>
+                            </dt>
+                            <dd><a href="{:U('/' . $v['uid'])}">{$v.username}</a></dd>
+                            
+                        </dl>
+                        <span class='heed_btn add-fl' uid='{$v['uid']}'><strong>+&nbsp;</strong>关注</span>
+                    </li>
+                    </foreach>
+                    </fieldset>
+                
+            </ul>
+        
+    </div>
+  
+
+</div>

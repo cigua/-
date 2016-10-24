@@ -1,0 +1,109 @@
+[ 2016-08-20T17:22:00+08:00 ] 127.0.0.1 /myweibo/Index/getComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:getComment
+
+[ 2016-08-20T17:22:09+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:comment
+
+[ 2016-08-20T17:22:10+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0005s ]
+ERR: 非法操作:comment
+
+[ 2016-08-20T17:22:11+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:comment
+
+[ 2016-08-20T17:22:11+08:00 ] 127.0.0.1 /myweibo/Index/comment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0005s ]
+ERR: 非法操作:comment
+
+[ 2016-08-20T18:25:32+08:00 ] 127.0.0.1 /myweibo/Index/delWeibo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0010s ]
+ERR: 非法操作:delWeibo
+
+[ 2016-08-20T20:01:50+08:00 ] 127.0.0.1 /myweibo/UserSetting/editFace.html
+ERR: 非法操作:editFace
+
+[ 2016-08-20T20:44:54+08:00 ] 127.0.0.1 /myweibo/
+ERR: 1052:Column 'uid' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM wb_weibo w left join wb_userinfo u on w.uid=u.uid  WHERE `uid` IN ('36','40','38','39') ORDER BY time DESC 
+
+[ 2016-08-20T20:46:13+08:00 ] 127.0.0.1 /myweibo/
+ERR: 1052:Column 'uid' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM wb_weibo w left join wb_userinfo u on w.uid=u.uid  WHERE `uid` IN ('36','40','38','39') ORDER BY time DESC 
+
+[ 2016-08-20T20:47:45+08:00 ] 127.0.0.1 /myweibo/
+ERR: 1052:Column 'uid' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM wb_weibo w left join wb_userinfo u on w.uid=u.uid  WHERE `uid` IN ('36','40','38','39') ORDER BY time DESC 
+
+[ 2016-08-20T20:47:45+08:00 ] 127.0.0.1 /myweibo/
+ERR: 1052:Column 'uid' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM wb_weibo w left join wb_userinfo u on w.uid=u.uid  WHERE `uid` IN ('36','40','38','39') ORDER BY time DESC 
+
+[ 2016-08-20T20:47:46+08:00 ] 127.0.0.1 /myweibo/
+ERR: 1052:Column 'uid' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM wb_weibo w left join wb_userinfo u on w.uid=u.uid  WHERE `uid` IN ('36','40','38','39') ORDER BY time DESC 
+
+[ 2016-08-20T20:47:46+08:00 ] 127.0.0.1 /myweibo/
+ERR: 1052:Column 'uid' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM wb_weibo w left join wb_userinfo u on w.uid=u.uid  WHERE `uid` IN ('36','40','38','39') ORDER BY time DESC 
+
+[ 2016-08-20T20:47:46+08:00 ] 127.0.0.1 /myweibo/
+ERR: 1052:Column 'uid' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM wb_weibo w left join wb_userinfo u on w.uid=u.uid  WHERE `uid` IN ('36','40','38','39') ORDER BY time DESC 
+
+[ 2016-08-20T20:47:46+08:00 ] 127.0.0.1 /myweibo/
+ERR: 1052:Column 'uid' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM wb_weibo w left join wb_userinfo u on w.uid=u.uid  WHERE `uid` IN ('36','40','38','39') ORDER BY time DESC 
+
+[ 2016-08-20T20:48:26+08:00 ] 127.0.0.1 /myweibo/
+ERR: 1052:Column 'uid' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `wb_weibo` left join wb_userinfo u on weibo.uid=userinfo.uid  WHERE `uid` IN ('36','40','38','39') ORDER BY time DESC 
+
+[ 2016-08-20T20:49:18+08:00 ] 127.0.0.1 /myweibo/
+ERR: 1052:Column 'uid' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `wb_weibo` left join wb_userinfo  on weibo.uid=userinfo.uid  WHERE `uid` IN ('36','40','38','39') ORDER BY time DESC 
+
+[ 2016-08-20T20:49:51+08:00 ] 127.0.0.1 /myweibo/
+ERR: 1052:Column 'uid' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `wb_weibo` left join wb_userinfo  on wb_weibo.uid=wb_userinfo.uid  WHERE `uid` IN ('36','40','38','39') ORDER BY time DESC 
+
+[ 2016-08-20T21:09:35+08:00 ] 127.0.0.1 /myweibo/36.html
+ERR: 无法加载控制器:36
+
+[ 2016-08-20T21:29:44+08:00 ] 127.0.0.1 /myweibo/Common/addGroup.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wb_group` (`name`,`uid`) VALUES ('测试组','36') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-20T22:33:33+08:00 ] 127.0.0.1 /myweibo/Index/delWeibo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT `id`,`lock` FROM `wb_user` WHERE `account` = 'roflvb' LIMIT 1   [ RunTime:0.0005s ]
+ERR: 非法操作:delWeibo
+

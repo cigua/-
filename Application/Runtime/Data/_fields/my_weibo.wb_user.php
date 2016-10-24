@@ -1,0 +1,1 @@
+a:8:{i:0;s:2:"id";i:1;s:7:"account";i:2;s:8:"password";i:3;s:9:"registime";i:4;s:4:"lock";i:5;s:7:"on_line";s:3:"_pk";s:2:"id";s:5:"_type";a:6:{s:2:"id";s:7:"int(11)";s:7:"account";s:8:"char(20)";s:8:"password";s:8:"char(32)";s:9:"registime";s:16:"int(10) unsigned";s:4:"lock";s:19:"tinyint(1) unsigned";s:7:"on_line";s:19:"tinyint(3) unsigned";}}
